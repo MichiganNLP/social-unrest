@@ -26,12 +26,15 @@ pip install requests bibtexparser, requests
 ## Setup
 
 API Key: Obtain an API key for the Web of Science API. Replace 'your-api-key' in the script with your actual API key.
+
 BibTeX File: Prepare a BibTeX file (seedPapers.bib) containing the seed papers. Ensure each entry includes the DOI of the paper.
 
 ## Usage
 
 Clone the Repository: Clone this repository to your local machine.
+
 Navigate to the Directory: Open a terminal and navigate to the directory where the repository is cloned.
+
 Run the Script: Execute the script using Python.
 
 ```sh
