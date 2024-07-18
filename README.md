@@ -2,12 +2,20 @@
 
 This repository contains a script to fetch metadata, full text, and references for a list of seed papers using their DOIs. The script uses the Web of Science API to retrieve the necessary information and supports recursive fetching of references up to a specified depth.
 
+### Depth Parameter
+
+The depth parameter controls how deep the script will go when recursively fetching references.
+
+Depth = 1: Only fetch the references of the seed papers.
+Depth = 2: Fetch the references of the seed papers, and also fetch the references of those references.
+Depth = n: Continue this pattern up to n levels deep.
+This allows you to control the breadth and depth of the reference tree you want to build.
+
 ## Features
 
 - Fetch metadata and UID for seed papers using DOIs.
 - Retrieve references for each paper, handling pagination for large numbers of references.
 - Extract DOIs from references and recursively fetch their metadata and references.
-- Fetch full text for papers (placeholder function included, replace with actual implementation).
 
 ## Requirements
 
@@ -20,7 +28,7 @@ This repository contains a script to fetch metadata, full text, and references f
 Install the required libraries using pip:
 
 ```sh
-pip install requests bibtexparser, requests
+pip install requests bibtexparser
 ```
 
 ## Setup
@@ -40,11 +48,11 @@ Run the Script: Execute the script using Python.
 ```sh
 python get_references_metadata.py
 ```
-After running the script, the final results will be available in the all_papers_data.json file.
+After running the script, the final results will be available in the `all_papers_data.json` file.
 
 ## Future Enhancements
 
-- Implement the actual function to fetch the full text of papers using DOIs.
+- Implement the function to fetch the full text of papers using DOIs.
 - Improve error handling and logging for better debugging.
 - Add support for additional APIs or data sources.
 
