@@ -40,3 +40,14 @@ Run the Script: Execute the script using Python.
 ```sh
 python get_references_metadata.py
 ```
+After running the script, the final results will be available in the all_papers_data.json file.
+
+## Future Enhancements
+
+- Implement the actual function to fetch the full text of papers using DOIs.
+- Improve error handling and logging for better debugging.
+- Add support for additional APIs or data sources.
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
