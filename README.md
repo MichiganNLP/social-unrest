@@ -6,9 +6,10 @@ This repository contains a script to fetch metadata, full text, and references f
 
 The depth parameter controls how deep the script will go when recursively fetching references.
 
-Depth = 1: Only fetch the references of the seed papers.
-Depth = 2: Fetch the references of the seed papers, and also fetch the references of those references.
-Depth = n: Continue this pattern up to n levels deep.
+- Depth = 1: Only fetch the references of the seed papers.
+- Depth = 2: Fetch the references of the seed papers, and also fetch the references of those references.
+- Depth = n: Continue this pattern up to n levels deep.
+
 This allows you to control the breadth and depth of the reference tree you want to build.
 
 ## Features
