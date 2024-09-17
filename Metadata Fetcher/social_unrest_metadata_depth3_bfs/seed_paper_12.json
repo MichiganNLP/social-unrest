@@ -1,0 +1,30 @@
+[
+    {
+        "doi": "10.1016/j.ecolecon.2020.106633",
+        "metadata": {
+            "wos_id": "WOS:000525320300009",
+            "doi": "10.1016/j.ecolecon.2020.106633",
+            "title": "Natural resources and conflict: A meta-analysis of the empirical literature",
+            "authors": [
+                "Vesco, Paola",
+                "Dasgupta, Shouro",
+                "De Cian, Enrica",
+                "Carraro, Carlo"
+            ],
+            "abstract": "The link between natural resources and conflict has been extensively analysed by the empirical literature. Yet, there is disagreement on both the existence and the type of relationship connecting resources to conflict. Existing research has focused on demonstrating the impact of resource scarcity or abundance on the risk of conflict, but no effort has explored the reasons behind the persisting disagreement among scholars. This paper seeks to remedy this imbalance by conducting a meta-analysis of the empirical literature that investigates the link between natural resources and conflict. We adopt an econometric approach to analyse > 900 estimates from 41 articles. Our results show that both resource scarcity and abundance are associated with a higher probability of conflict. The direction and magnitude of the relationship depends on the type of resources and whether climate variables are controlled for. Specifically, the impact of the scarcity of agriculturally related resources, such as land and vegetation, seems to be mediated by climate variables. We also find that the way conflicts and resources are operationalized together with methodological choices and model specifications, greatly influence the probability of finding a significant relationship between conflicts and resources.",
+            "keywords": [
+                "Natural resources",
+                "Conflict",
+                "Meta-analysis",
+                "Meta-research",
+                "Climate-conflict nexus",
+                "Resources-driven issues"
+            ],
+            "document_type": "Article",
+            "publisher": "ELSEVIER",
+            "publication_year": 2020,
+            "publication_date": "JUN 2020"
+        },
+        "references": []
+    }
+]

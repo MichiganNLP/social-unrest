@@ -1,0 +1,29 @@
+[
+    {
+        "doi": "10.1007/s11625-020-00853-3",
+        "metadata": {
+            "wos_id": "WOS:000564514000001",
+            "doi": "10.1007/s11625-020-00853-3",
+            "title": "Three decades of research on climate change and peace: a bibliometrics analysis",
+            "authors": [
+                "Sharifi, Ayyoob",
+                "Simangan, Dahlia",
+                "Kaneko, Shinji"
+            ],
+            "abstract": "Over the past 3 decades, a vast body of research has been published on the interactions between climate change and events that undermine negative peace. Consequently, several review papers have been published in the last few years on this nexus. However, there is still a lack of a comprehensive bibliometrics analysis of the field. Accordingly, the main aim of this study is to fill this gap to advance our understanding of the existing literature. For this purpose, we analyzed 1337 articles indexed in the Web of Science using VOSviewer and SciMAT that are two commonly used software tools for science mapping and bibliometrics analysis. The SciMAT tool was also used to examine thematic evolution of the nexus over three consecutive sub-periods (i.e., 1990-2007, 2008-2014, and 2015-2020). Results show that research on this nexus has grown steadily since 1990, but the trends have rapidly increased after the publication of the IPCC assessment report in 2007. Four major thematic focus areas were identified, namely, (1) war and violent conflict, (2) political tensions and institutional mechanisms to deal with conflicts, (3) disasters and other climatic impacts that may lead to massive human displacements, and (4) conflicts/cooperation related to water resources. Results of the SciMAT analysis confirm and add weight to these findings. They also show that, over time, issues related to environmental security have gained more attention. An important finding is that the focus has mainly been on war and violent conflicts and other events are not well addressed. The article concludes with some recommendations for future research.",
+            "keywords": [
+                "Climate change",
+                "Negative peace",
+                "Conflict",
+                "War",
+                "Bibliometrics",
+                "Thematic evolution"
+            ],
+            "document_type": "Review",
+            "publisher": "SPRINGER JAPAN KK",
+            "publication_year": 2021,
+            "publication_date": "JUL 2021"
+        },
+        "references": []
+    }
+]
