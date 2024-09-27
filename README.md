@@ -1,6 +1,7 @@
+
 # Article Metadata and References Fetcher
 
-This repository contains a script to fetch metadata, full text, and references for a list of seed papers using their DOIs. The script uses the Web of Science API to retrieve the necessary information and supports recursive fetching of references up to a specified depth.
+This repository contains a script to fetch metadata and references for a list of seed papers using their DOIs. The script uses the Web of Science API to retrieve the necessary information and supports recursive fetching of references up to a specified depth.
 
 ### Depth Parameter
 
@@ -17,6 +18,7 @@ This allows you to control the breadth and depth of the reference tree you want 
 - Fetch metadata and UID for seed papers using DOIs.
 - Retrieve references for each paper, handling pagination for large numbers of references.
 - Extract DOIs from references and recursively fetch their metadata and references.
+- Support for breadth-first search (BFS) fetching of references.
 
 ## Requirements
 
@@ -34,9 +36,24 @@ pip install requests bibtexparser
 
 ## Setup
 
-API Key: Obtain an API key for the Web of Science API. Replace 'your-api-key' in the script with your actual API key.
+### Obtaining an API Key for Web of Science API Expanded Core
 
-BibTeX File: Prepare a BibTeX file (seedPapers.bib) containing the seed papers. Ensure each entry includes the DOI of the paper.
+To use this script, you'll need an API key for the Web of Science (WOS) Expanded Core API. Follow these steps to get the key:
+
+1. **Register for a WOS Account**: If you don't have an account, sign up on the [Web of Science platform](https://www.webofscience.com/).
+
+2. **Request API Access**: 
+   - After logging in, go to the [Web of Science API Portal](https://developer.clarivate.com/apis/wos).
+   - Browse to the **WOS Expanded Core Collection API** documentation page.
+   - Apply for an API key by following the instructions provided in the portal. Usually, you'll need to provide details about your intended use of the API.
+   
+3. **Receive API Key**: Once your request is approved, you'll receive an API key. This key will grant access to the WOS Expanded Core API endpoints.
+
+4. **Insert API Key**: Replace the placeholder `'your-api-key'` in the script with the API key you obtained.
+
+### BibTeX File
+
+Prepare a BibTeX file (seedPapers.bib) containing the seed papers. Ensure each entry includes the DOI of the paper.
 
 ## Usage
 
@@ -47,9 +64,10 @@ Navigate to the Directory: Open a terminal and navigate to the directory where t
 Run the Script: Execute the script using Python.
 
 ```sh
-python get_references_metadata.py
+python get_metadata_references_bfs.py
 ```
-After running the script, the final results will be available in the `all_papers_data.json` file.
+
+After running the script, the results will be available in a folder called `social_unrest_metadata_bfs`. Inside this folder, you will find individual JSON files for each seed paper (e.g., `seed_paper_1.json`, `seed_paper_2.json`), each containing the unique papers identified up to the specified depth.
 
 ## Future Enhancements
 
